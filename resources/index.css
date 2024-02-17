@@ -1,23 +1,73 @@
 * {
-    margin: 0;
+    margin: 0 5px ;
     padding: 0;
+    font-family: Montserrat;
 }
 
-.header {
+.navbar {
     margin: auto;
-    padding: 15px;
+    padding: 20px;
     width: 100%;
-    text-align: center;
     min-width: 100px;
-    font-family: Montserrat;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    overflow: scroll;
+    position: sticky;
 }
 
-.intro {
-    font-family: Montserrat;
+.navbar div {
     padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar a:hover {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 6%;
+    background-color: rgba(175, 47, 175, 0.386);
+    color: white;
+}
+
+.section1 {
     text-align: center;
 }
 
-.gif {
+.child {
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 100;
     text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: sticky;
+    min-width: 500px;
+    overflow: scroll;
+} 
+
+.name {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 200px
+}
+
+.bio {
+    min-width: 100px;
+    text-align: center;
+    font-size: 32px !important;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.italics {
+    font-style: oblique;
 }
