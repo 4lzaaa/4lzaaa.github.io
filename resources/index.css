@@ -13,7 +13,7 @@
     src: url(/4lzaaa.github.io/resources/montserrat/Montserrat-Light.otf);
 }
 
-header {
+.header {
     margin: auto;
     padding: 15px;
     width: 100%;
@@ -22,8 +22,12 @@ header {
     font-family: Montserrat-Medium;
 }
 
-p {
+.intro {
     font-family: Montserrat-Light;
     padding: 10px;
+    text-align: center;
+}
+
+.gif {
     text-align: center;
 }
