@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;;
+  }
 * {
     margin: 0 5px ;
     padding: 0;
@@ -34,13 +37,14 @@
     color: white;
 }
 
-.section1 {
+#section1, #section2, #section3, #section4 {
     text-align: center;
 }
 
-.child {
-    height: 500px;
-    width: 400px;
+.child, .child-2, .child-3, .child-4, .child-5 {
+    margin-top: 20px;
+    height: 600px;
+    width: 500px;
     padding: 10px;
     font-size: 60px;
     font-weight: 100;
@@ -48,14 +52,15 @@
     vertical-align: middle;
     display: inline-block;
     position: sticky;
-    min-width: 500px;
+    min-width: 600px;
     overflow: scroll;
 } 
 
-.name {
+.heading {
     text-align: center;
     vertical-align: middle;
-    margin-top: 200px
+    margin-top: 190px;
+    font-weight: 400;
 }
 
 .bio {
@@ -70,4 +75,14 @@
 
 .italics {
     font-style: oblique;
+}
+
+.child-2 {
+    background-color: #E6E6E6;
+    opacity: 65%;
+}
+
+.child-2 p {
+    margin-top: 210px;
+    font-size: smaller;
 }
