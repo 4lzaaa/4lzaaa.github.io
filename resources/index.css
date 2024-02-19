@@ -71,7 +71,7 @@ body {
     display: inline-block;
     position: sticky;
     min-width: 600px;
-    overflow: scroll;
+    overflow: hidden;
     max-width: 500px;
 }
 
