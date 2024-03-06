@@ -129,3 +129,9 @@ img {
     margin-top: 10px;
 }
 
+.socials {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
