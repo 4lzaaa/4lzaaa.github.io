@@ -135,3 +135,8 @@ img {
     justify-content: center;
 }
 
+.one> img, .two > img, .three > img, .four > img {
+    border-radius: 1rem;
+    border: 1px black solid;
+}
+
