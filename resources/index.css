@@ -127,6 +127,7 @@ img {
 
 .pone, .ptwo, .pthree, .pfour {
     margin-top: 10px;
+    font-size: 0.5em !important;
 }
 
 .socials {
@@ -140,3 +141,11 @@ img {
     border: 1px black solid;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
